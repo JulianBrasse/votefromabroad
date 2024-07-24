@@ -1,0 +1,90 @@
+/*Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules*/
+/*Order: Position, Size, Shape, Color, Function*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000");
+
+* {
+	margin: 0vw;
+	padding: 0vw;
+	border: 0vw;
+	color: #ffffff;
+	font-size: 1.25vw;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 400;
+}
+
+body {
+	background-color: #000999;
+}
+
+above {
+	display: flex;
+	padding: 1vw;
+	justify-content: center;
+	font-weight: 600;
+	color: #000000;
+	background-color: white;
+}
+
+header {
+	display: flex;
+	padding: 1vw 10vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+nav a {
+	font-size: 1.75vw;
+}
+
+nav a img {
+	width: 2.25vw;
+}
+
+main {
+	display: flex;
+	padding: 1vw 10vw;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+h1 {
+	font-size: 5vw;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 2.5vw;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+select, option {
+	margin-top: 1vw;
+	width: 20vw;
+	padding: 0.75vw;
+	float: left;
+	border-radius: 1vw;
+	color: #000000;
+}
+
+.logo {
+	width: 30vw;
+}
+
+.asidegraphic {
+	max-width: 30vw;
+}
