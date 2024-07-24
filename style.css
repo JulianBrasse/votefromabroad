@@ -1,7 +1,7 @@
 /*Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules*/
 /*Order: Position, Size, Shape, Color, Function*/
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000&display=swap");
 
 * {
 	margin: 0vw;
