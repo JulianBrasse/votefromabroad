@@ -50,6 +50,10 @@ nav a img {
 	width: 2.25vw;
 }
 
+nav a:hover {
+	text-decoration: underline 0.2vw;
+}
+
 main {
 	display: flex;
 	padding: 1vw 10vw;
