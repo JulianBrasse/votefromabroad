@@ -110,3 +110,7 @@ select, option {
 	border-radius: 0.75vw;
 	text-decoration: none;
 }
+
+.button:hover {
+	background-color: #ffffff33;
+}
