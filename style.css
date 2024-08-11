@@ -42,7 +42,7 @@ nav a img {
 }
 
 nav a:hover {
-	text-decoration: underline 0.2vw;
+	text-shadow: 0 0 1vw #000000;
 }
 
 main {
@@ -89,6 +89,10 @@ select, option {
 	float: left;
 	border-radius: 0.75vw;
 	color: #000000;
+}
+
+select:hover {
+	box-shadow: 0 0 1vw #000000;
 }
 
 .above {
