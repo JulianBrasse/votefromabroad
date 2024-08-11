@@ -74,11 +74,6 @@ footer {
 
 footer section {
 	max-width: 25vw;
-
-}
-
-form {
-	padding: 1vw 0vw 1vw 0vw;
 }
 
 h1 {
@@ -91,6 +86,7 @@ h2 {
 }
 
 form {
+	margin: 1vw 0vw 1vw 0vw;
 	display: flex;
 	flex-direction: column;
 }
