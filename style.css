@@ -108,6 +108,11 @@ select, option {
 	max-width: 30vw;
 }
 
+.bold {
+	font-weight: 800;
+	text-decoration: none;
+}
+
 .button {
 	padding: 1vw;
 	border: solid #ffffff 0.2vw;
@@ -117,4 +122,9 @@ select, option {
 
 .button:hover {
 	background-color: #ffffff33;
+}
+
+above::after {
+	content: "→";
+	padding-left: 1vw;
 }
